@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+  <div class="center">
+    <h1><%=post.title.toUpperCase()%></h1>
+    <p><%=post.content%></p>
+    <a href="/edit/<%=post.id%>" class="btn btn-success" role="button" >Edit</a>
+    <a href="/delete/<%=post.id%>" class="btn btn-danger" role="button">Delete</a>
+  </div>
+  
+  
+  
+
+<%- include("partials/footer"); -%>
